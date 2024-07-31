@@ -29,15 +29,26 @@ const Hero = () => {
           <p className='text-xl text-gray-700'>Run Flyknit </p>
           <p className='text-xl text-gray-800'>React</p>
           <h1 className='text-3xl font-bold text-white mt-3 mb-3'>$272</h1>
-          <p className='text-lg text-white mb-3'>Color</p>
-          <div className='flex gap-2'>
+          <p className='text-lg text-white mb-2'>Color</p>
+          <div className='flex gap-2 mb-2'>
           <div className="color rounded-full z-10 bg-red-600 h-5 w-5 border border-transparent hover:border-white transition-colors duration-200"></div>
           <div className="color rounded-full z-10 bg-blue-500 h-5 w-5 border border-transparent hover:border-white transition-colors duration-300"></div>
           <div className="color rounded-full z-10 bg-green-500 h-5 w-5 border border-transparent hover:border-white transition-colors duration-300"></div>
           <div className="color rounded-full z-10 bg-yellow-400 h-5 w-5 border border-transparent hover:border-white transition-colors duration-300"></div>
-
-          
           </div>
+          <div className='text-white mb-3 text-medium flex gap-6'>
+          Size:
+          <span className='font-bold text-gray-700'>L</span>
+          <span className='font-bold text-gray-700'>M</span>
+          <span className='font-bold text-red-600'>XL</span>
+          </div>
+          <div className='flex  relative left-8 mb-4'>
+            <button className='rounded-full w-10 h-10 bg-transparent text-white bg-black' >7</button>
+            <button className='rounded-full w-10 h-10 bg-transparent text-white'>9</button>
+            <button className='rounded-full w-10 h-10 bg-transparent text-white'>11</button>
+          </div>
+          <button className='bg-orange-800 w-20 rounded-md tracking-wider z-10 hover:bg-orange-700 text-white font-extrabold p-2'>Buy</button>
+          
         </div>
         <div className="text-black z-0 mt-4 min-w-[70vw] text-[24rem] font-bold tracking-tighter">
           NIKE

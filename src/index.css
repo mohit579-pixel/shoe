@@ -12,5 +12,10 @@ body {
 }
 .text-gradient {
   background: radial-gradient(circle at 0% 0%,rgba(236, 236, 236, 1), rgba(118, 108, 108, 1), rgba(34, 34, 34, 1));}
+  .nav-gradient{
+    background: radial-gradient(circle at 0% 0%,#dfa6e1, #c163d0, rgba(144,47,176,1));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 
 
