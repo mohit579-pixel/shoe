@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-slate-950 p-4">
       <div className="flex items-center justify-between">
-        <div className="flex items-center">
+        <div className="flex items-center min-w-14">
           <img src={logo2} className="h-11" alt="Logo" />
         </div>
         <div className="flex items-center space-x-4">
@@ -25,7 +25,7 @@ const Navbar = () => {
               className="bg-transparent outline-none text-white px-2 placeholder-gray-400"
             />
           </div>
-            <div  >
+            <div  className="sm:hidden">
             <FaShoppingBag className="text-white h-[100%] size-6" />
             </div>
         </div>
