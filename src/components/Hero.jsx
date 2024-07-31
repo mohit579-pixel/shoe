@@ -6,12 +6,12 @@ const Hero = () => {
     <section className='relative overflow-hidden w-full min-h-screen flex items-center justify-center bg-slate-950'>
       {/* Background Image */}
       <div
-        className='absolute top-0 left-[-140px] w-full h-full bg-cover bg-center'
+        className='absolute top-0 left-0 w-full h-full bg-cover bg-center'
         style={{ backgroundImage: `url(${logo2})` }}
       />
       {/* Video Overlay */}
       <video
-        className='absolute top-0  w-full h-full object-cover left-[-140px]'
+        className='absolute top-0 left-0 w-full h-full object-cover'
         src='https://res.cloudinary.com/dymfsdc1w/video/upload/v1722421125/samples/videoplayback_kpryr2.mp4'
         autoPlay
         loop
@@ -29,13 +29,13 @@ const Hero = () => {
       />
       {/* Content */}
       <div className='relative z-10 text-center px-4 py-8 md:px-8 md:py-12 lg:px-16 lg:py-20'>
-        <h1 className='text-white text-3xl md:text-5xl lg:text-6xl font-bold leading-tight'>
+        <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'>
           Welcome to Our Store
         </h1>
-        <p className='text-white text-base md:text-lg lg:text-xl mt-4'>
+        <p className='text-white text-base sm:text-lg md:text-xl lg:text-2xl mt-4'>
           Discover the best products at unbeatable prices.
         </p>
-        <button className='mt-6 bg-white text-slate-950 px-6 py-3 rounded-full text-base md:text-lg lg:text-xl hover:bg-gray-200 transition'>
+        <button className='mt-6 bg-white text-slate-950 px-6 py-3 rounded-full text-base sm:text-lg md:text-xl lg:text-2xl hover:bg-gray-200 transition'>
           Shop Now
         </button>
       </div>
