@@ -1,6 +1,6 @@
 import React from 'react';
-import logo3 from '../assets/logo4.png'; // PNG image
-
+import logo3 from '../assets/logo4.png';
+import shoe2 from '../assets/shoe2.png'; // PNG image
 const Hero = () => {
   return (
     <section className='relative overflow-hidden w-full min-h-[90vh] flex items-center justify-center bg-slate-950'>
@@ -51,10 +51,12 @@ const Hero = () => {
           
         </div>
         <div className="text-black z-0 mt-4 min-w-[70vw] text-[24rem] font-bold tracking-tighter">
-          NIKE
+          <span>NIKE</span>
+          <div className='h-[35vh] w-[35vw] absolute top-[27vh] rotate-15 left-[29vw]'>
+          <img src={shoe2} alt="" srcset="" className='w-full'/>
+          </div>
         </div>
-        <div className="text-green-700 mt-4">
-          
+        <div className=" ">
         </div>
       </div>
     </section>
